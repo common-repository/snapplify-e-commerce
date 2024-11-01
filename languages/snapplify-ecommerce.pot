@@ -1,0 +1,266 @@
+# Copyright (C) 2021 Snapplify
+# This file is distributed under the same license as the Snapplify E-Commerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Snapplify E-Commerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/snapplify-catalog-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-05T13:37:33+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: snapplify-ecommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Snapplify E-Commerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.snapplify.com/snapplify-ecommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Offer Snapplify products in your WooCommerce Store that can be redeemed using a voucher."
+msgstr ""
+
+#. Author of the plugin
+#: admin/class-snapplify-ecommerce-admin.php:329
+msgid "Snapplify"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:145
+msgid "Snapplify E-Commerce Management"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:169
+msgid "Snapplify E-Commerce Management Settings"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:169
+msgid "The following options are used to configure Snapplify E-Commerce Products"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:172
+msgid "Publish Products Immediately"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:173
+msgid "Immediately publish imported products"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:177
+msgid "Enable Auto-Publish"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:182
+msgid "Unpublish Unavailable Products"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:183
+msgid "Automatically unpublish products marked as unavailable"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:187
+msgid "Enable Auto-Unpublish"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:192
+msgid "Manage Product Categories"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:193
+msgid "Manage categories of imported products"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:197
+msgid "Enable Category Management"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:202
+msgid "Strict Product Validation"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:203
+msgid "Validate the Product Feed fields strictly"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:207
+msgid "Enable Strict Product Validation"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:223
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:44
+msgid "Authentication Token"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:224
+msgid "The bearer token to be used for authenticating requests"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:228
+msgid "You can generate a new Authentication Token by <a href=\"%s\">clicking here</a>."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:232
+msgid "Api URL"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:233
+msgid "The URL to give Snapplify for product feed configuration"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:237
+msgid "You should give Snapplify this URL along with the authentication token."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:241
+msgid "Snapplify Store/App ID"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:242
+msgid "The ID of your Store/App assigned by Snapplify"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:246
+msgid "The \"Store/App ID\" assigned to you by Snapplify, used for authentication."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:250
+msgid "Snapplify API Key"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:251
+msgid "The API Key assigned to you by Snapplify"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:255
+msgid "The \"API Key\" assigned to you by Snapplify, used for authentication."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:373
+msgid "ID"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:375
+msgid "The Snapplify ID of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:381
+msgid "Title"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:383
+msgid "The Snapplify Title of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:389
+msgid "Subtitle"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:391
+msgid "The Subtitle of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:397
+msgid "ISBN"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:399
+msgid "The ISBN of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:405
+msgid "Availability"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:407
+msgid "Availability of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:413
+msgid "Price"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:415
+msgid "The base price of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:421
+msgid "Currency"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:423
+msgid "Currency of the price of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:429
+msgid "Embargo Date"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:431
+msgid "Embargo date of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:437
+msgid "BIC Code"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:439
+msgid "BIC code of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:445
+msgid "BISAC Code"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:447
+msgid "BISAC code of the product."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:453
+msgid "Publisher"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:455
+msgid "Product publisher."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:461
+msgid "Allowed Countries"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:463
+msgid "Countries the product may be sold in."
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:469
+msgid "Excluded Countries"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:471
+msgid "Countries the product is barred from."
+msgstr ""
+
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:37
+msgid "New key details"
+msgstr ""
+
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:39
+msgid "This key will only be displayed once. Make sure you copy and store it safely."
+msgstr ""
+
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:47
+msgid "Copy"
+msgstr ""
+
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:47
+msgid "Copied!"
+msgstr ""
+
+#: admin/partials/snapplify-ecommerce-admin-regen-auth-key-display.php:53
+msgid "I've copied the token"
+msgstr ""

@@ -1,0 +1,9 @@
+{
+    "name": "snapplify/ecommerce",
+    "description": "Manage your Snapplify products in WooCommerce",
+    "license": "proprietary",
+    "require": {
+        "league/pipeline": "^1.0",
+        "justinrainbow/json-schema": "^5.2"
+    }
+}

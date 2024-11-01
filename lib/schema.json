@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "description": "A product from Snapplify's catalog",
+  "type": ["object", "null"],
+  "properties": {
+    "availability": {
+      "description": "A flag denoting the availability status of the product",
+      "type": ["string", "null"]
+    },
+    "bicCode": {
+      "description": "A product code",
+      "type": ["string", "null"]
+    },
+    "bisacCode": {
+      "description": "A product code",
+      "type": ["string", "null"]
+    },
+    "categories": {
+      "description": "Categories of a product",
+      "type": ["array", "null"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "id": {
+            "type": ["integer", "string", "null"]
+          },
+          "label": {
+            "type": ["string", "null"]
+          },
+          "parent": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "contributors": {
+      "type": ["array", "null"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "firstName": {
+            "type": ["string", "null"]
+          },
+          "lastName": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "copyright": "Iris the Dragon Inc.",
+    "createdDate": "2015-01-19T14:52:05.000+01:00",
+    "currency": {
+      "description": "The currency of the price of the product",
+      "type": ["string", "null"]
+    },
+    "description": {
+      "description": "The description of the product",
+      "type": ["string", "null"]
+    },
+    "drmEnabled": {
+      "description": "Is DRM enabled",
+      "type": ["string", "boolean", "null"]
+    },
+    "drmRestrictions": {
+      "type": ["array", "null"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "limited": {
+            "type": ["boolean", "null"]
+          },
+          "type": {
+            "type": ["string", "null"]
+          },
+          "value": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "edition": "2nd",
+    "embargoDate": {
+      "description": "Embargo date of the product",
+      "type": ["string", "null"]
+    },
+    "etag": {
+      "description": "Unique tag for this version of the product",
+      "type": ["string", "null"]
+    },
+    "excludedForSaleInCountries": {
+      "description": "Excluded sale locations of the product",
+      "type": ["string", "null"]
+    },
+    "fileSize": {
+      "description": "File size of the product",
+      "type": ["integer", "string", "null"]
+    },
+    "format": {
+      "description": "File format of the product",
+      "type": ["string", "null"]
+    },
+    "free": {
+      "description": "Flag for a free product",
+      "type": ["boolean", "null"]
+    },
+    "gradeLevel": {
+      "description": "The grade level recommendation for the product",
+      "type": ["integer", "string", "null"]
+    },
+    "id": {
+      "description": "The unique Snapplify identifier for the product",
+      "type": ["integer", "null"]
+    },
+    "identifier": {
+      "description": "The ISBN for the product",
+      "type": ["string", "null"]
+    },
+    "imageMd5Hash": {
+      "description": "An MD5 hash of the image of the product",
+      "type": ["string", "null"]
+    },
+    "imageUrl": {
+      "description": "A url to the image of the product",
+      "type": ["string", "null"]
+    },
+    "includedForSaleInCountries": {
+      "description": "Approved sale locations of the product",
+      "type": ["string", "null"]
+    },
+    "language": {
+      "description": "The language of the product",
+      "type": ["string", "null"]
+    },
+    "numberOfPages": {
+      "description": "The number of pages in the product",
+      "type": ["integer", "null"]
+    },
+    "price": {
+      "description": "The price of the product",
+      "type": ["number", "string"]
+    },
+    "publishedDate": {
+      "description": "The date the product was published",
+      "type": ["string", "null"]
+    },
+    "publisher": {
+      "description": "The name of the products publisher",
+      "type": ["string", "null"]
+    },
+    "relatedIdentifier": {
+      "description": "Related identifier",
+      "type": ["string", "null"]
+    },
+    "sentDateTime": {
+      "description": "The time when the product was sent",
+      "type": ["integer", "null"]
+    },
+    "seriesName": {
+      "description": "The series name of the product",
+      "type": ["string", "null"]
+    },
+    "seriesNumber": {
+      "description": "The series number of the product",
+      "type": ["string", "null"]
+    },
+    "subject": {
+      "description": "The subject name of the product",
+      "type": ["string", "null"]
+    },
+    "subjects": {
+      "type": ["array", "null"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "code": {"type": ["string", "null"]},
+          "name": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "subTitle": {
+      "description": "The secondary name or subtitle of the product",
+      "type": ["string", "null"]
+    },
+    "supplier": {
+      "type": ["object", "null"],
+      "properties": {
+        "label": {
+          "type": ["string", "null"]
+        },
+        "code": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "title": {
+      "description": "The name of the product",
+      "type": ["string", "null"]
+    },
+    "updatedDate": {
+      "description": "The products update time",
+      "type": ["string", "null"]
+    }
+  },
+  "required": [
+    "id",
+    "identifier",
+    "availability",
+    "title",
+    "imageUrl",
+    "price",
+    "currency"
+  ]
+}

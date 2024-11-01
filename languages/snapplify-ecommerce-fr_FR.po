@@ -1,0 +1,97 @@
+# Copyright (C) 2020 Snapplify
+# This file is distributed under the same license as the Snapplify ECommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Snapplify ECommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/snapplify-ecommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-29T11:07:58+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: snapplify-ecommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Snapplify ECommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.snapplify.com/snapplify-ecommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a short description of what the plugin does. It's displayed in the WordPress admin area."
+msgstr "Ceci est une brève description de ce que fait le plugin. Il est affiché dans la zone d'administration de WordPress"
+
+#. Author of the plugin
+#: admin/class-snapplify-ecommerce-admin.php:202
+msgid "Snapplify"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:134
+msgid "Snapplify ECommerce Management"
+msgstr "Configuration de Catalogue Snapplify"
+
+#: admin/class-snapplify-ecommerce-admin.php:149
+msgid "Snapplify ECommerce Management Settings"
+msgstr "Paramètres de Snapplify ECommerceue"
+
+#: admin/class-snapplify-ecommerce-admin.php:149
+msgid "The following options are used to configure Snapplify ECommerce Products"
+msgstr "Les options suivantes sont utilisées pour configurer les produits du Catalogue Snapplify"
+
+#: admin/class-snapplify-ecommerce-admin.php:152
+msgid "Publish Products Immediately"
+msgstr "Publier les produits immédiatement"
+
+#: admin/class-snapplify-ecommerce-admin.php:153
+msgid "Immediately publish imported products"
+msgstr "Publier immédiatement les produits importés"
+
+#: admin/class-snapplify-ecommerce-admin.php:157
+msgid "Enable Auto-Publish"
+msgstr "Activer la publication automatique"
+
+#: admin/class-snapplify-ecommerce-admin.php:161
+msgid "Unpublish Unavailable Products"
+msgstr "Annuler la publication des produits non disponibles"
+
+#: admin/class-snapplify-ecommerce-admin.php:162
+msgid "Automatically unpublish products marked as unavailable"
+msgstr "Annuler automatiquement la publication des produits marqués comme indisponibles"
+
+#: admin/class-snapplify-ecommerce-admin.php:166
+msgid "Enable Auto-Unpublish"
+msgstr "Activer l'annulation automatique de la publication"
+
+#: admin/class-snapplify-ecommerce-admin.php:170
+msgid "Manage Product Categories"
+msgstr "Gérer les catégories de produits"
+
+#: admin/class-snapplify-ecommerce-admin.php:171
+msgid "Manage categories of imported products"
+msgstr "Gérer les catégories de produits importés"
+
+#: admin/class-snapplify-ecommerce-admin.php:175
+msgid "Enable Category Management"
+msgstr "Activer la gestion des catégories"
+
+#: admin/class-snapplify-ecommerce-admin.php:221
+msgid "ID"
+msgstr ""
+
+#: admin/class-snapplify-ecommerce-admin.php:223
+msgid "The Snapplify ID of the product."
+msgstr "L'ID Snapplify du produit"
+
+#: admin/class-snapplify-ecommerce-admin.php:230
+msgid "Title"
+msgstr "Titre"
+
+#: admin/class-snapplify-ecommerce-admin.php:232
+msgid "The Snapplify Title of the product."
+msgstr "Le titre Snapplify du produit"
